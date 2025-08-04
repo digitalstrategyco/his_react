@@ -8,7 +8,6 @@ import Physicians from './components/PhysiciansChart'
 import TophospitalList from './components/TophospitalList';
 import MarketviewCard from './components/MarketviewCard';
 import Demo from './components/Demo';
-import Yuvraj from './components/Yuvraj'
 document.addEventListener('DOMContentLoaded', () => {
 const appContainer = document.getElementById('react-app');
 const chartContainer = document.getElementById('react-app1');
@@ -48,8 +47,5 @@ const yuviraj = document.getElementById('react-app8');
   } if (demo) {
     const root7 = ReactDOM.createRoot(demo);
     root7.render(<Demo/>);
-  } if (yuviraj) {
-    const root8 = ReactDOM.createRoot(yuviraj);
-    root8.render(<Yuvraj/>);
   }
 });
