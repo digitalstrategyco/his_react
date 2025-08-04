@@ -1,4 +1,4 @@
-name: React Drupal Module
+name: React Drupal Module 11
 type: module
 description: 'React app integration with Drupal'
 core_version_requirement: ^8 || ^9 || ^10
