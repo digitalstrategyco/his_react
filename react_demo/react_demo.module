@@ -1,7 +1,0 @@
-<?php
-/**
- * Implements hook_page_attachments().
- */
-function react_demo_page_attachments(array &$attachments) {
-  $attachments['#attached']['library'][] = 'react_demo/react_demo_assets';
-}

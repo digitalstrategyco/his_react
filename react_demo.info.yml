@@ -1,0 +1,5 @@
+name: React Drupal Module
+type: module
+description: 'React app integration with Drupal'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
